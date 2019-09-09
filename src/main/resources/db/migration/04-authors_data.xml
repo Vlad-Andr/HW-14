@@ -8,44 +8,44 @@
 
     <changeSet id="4" author="vvv">
         <insert tableName="authors">
-            <column name="first_name">Joshua</column>
-            <column name="last_name">Bloch</column>
+            <column name="first_name">Carl</column>
+            <column name="last_name">Hovak</column>
         </insert>
         <insert tableName="authors">
-            <column name="first_name">George</column>
-            <column name="last_name">Orwell</column>
+            <column name="first_name">Kris</column>
+            <column name="last_name">O`connor</column>
         </insert>
         <insert tableName="authors">
-            <column name="first_name">Chuck</column>
-            <column name="last_name">Palahniuk</column>
+            <column name="first_name">Jack</column>
+            <column name="last_name">Daniels</column>
         </insert>
         <insert tableName="authors">
-            <column name="first_name">Edgar</column>
-            <column name="last_name">Poe</column>
+            <column name="first_name">Keet</column>
+            <column name="last_name">Chup</column>
         </insert>
         <insert tableName="authors">
-            <column name="first_name">Howard</column>
-            <column name="last_name">Lovecraft</column>
+            <column name="first_name">Hloe</column>
+            <column name="last_name">Washington</column>
         </insert>
         <insert tableName="authors">
-            <column name="first_name">Stephen</column>
-            <column name="last_name">King</column>
+            <column name="first_name">Even</column>
+            <column name="last_name">Bruks</column>
         </insert>
         <insert tableName="authors">
-            <column name="first_name">Oscar</column>
-            <column name="last_name">Wilde</column>
+            <column name="first_name">Ryan</column>
+            <column name="last_name">Vilson</column>
         </insert>
         <insert tableName="authors">
-            <column name="first_name">Jules</column>
-            <column name="last_name">Werne</column>
+            <column name="first_name">Bat</column>
+            <column name="last_name">Man</column>
         </insert>
         <insert tableName="authors">
-            <column name="first_name">Douglas</column>
-            <column name="last_name">Adams</column>
+            <column name="first_name">Bruce</column>
+            <column name="last_name">Lee</column>
         </insert>
         <insert tableName="authors">
-            <column name="first_name">Kurt</column>
-            <column name="last_name">Vonnegut</column>
+            <column name="first_name">Chupa</column>
+            <column name="last_name">Chups</column>
         </insert>
     </changeSet>
 </databaseChangeLog>
