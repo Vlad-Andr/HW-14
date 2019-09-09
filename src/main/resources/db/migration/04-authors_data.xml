@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+
+    <changeSet id="4" author="vvv">
+        <insert tableName="authors">
+            <column name="first_name">Joshua</column>
+            <column name="last_name">Bloch</column>
+        </insert>
+        <insert tableName="authors">
+            <column name="first_name">George</column>
+            <column name="last_name">Orwell</column>
+        </insert>
+        <insert tableName="authors">
+            <column name="first_name">Chuck</column>
+            <column name="last_name">Palahniuk</column>
+        </insert>
+        <insert tableName="authors">
+            <column name="first_name">Edgar</column>
+            <column name="last_name">Poe</column>
+        </insert>
+        <insert tableName="authors">
+            <column name="first_name">Howard</column>
+            <column name="last_name">Lovecraft</column>
+        </insert>
+        <insert tableName="authors">
+            <column name="first_name">Stephen</column>
+            <column name="last_name">King</column>
+        </insert>
+        <insert tableName="authors">
+            <column name="first_name">Oscar</column>
+            <column name="last_name">Wilde</column>
+        </insert>
+        <insert tableName="authors">
+            <column name="first_name">Jules</column>
+            <column name="last_name">Werne</column>
+        </insert>
+        <insert tableName="authors">
+            <column name="first_name">Douglas</column>
+            <column name="last_name">Adams</column>
+        </insert>
+        <insert tableName="authors">
+            <column name="first_name">Kurt</column>
+            <column name="last_name">Vonnegut</column>
+        </insert>
+    </changeSet>
+</databaseChangeLog>
