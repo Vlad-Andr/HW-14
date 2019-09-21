@@ -22,7 +22,6 @@ public class Author {
     private List<Book> books;
 
     public void addBook(Book book) {
-        this.books.add(book);
-        book.setAuthor(this);
+        getBooks().add(book);
     }
 }

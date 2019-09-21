@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("library")
+@RequestMapping("book")
 public class BookController {
     private final BookService bookService;
 
@@ -16,12 +16,12 @@ public class BookController {
         this.bookService = bookService;
     }
 
-    @PostMapping("book")
+    @PostMapping
     public void addBook(@RequestBody Book book){
         bookService.addNewBook(book);
     }
 
-    @GetMapping("book")
+    @GetMapping
     public List<Book> getAllBooks() {
         return bookService.getAllBooks();
     }
@@ -32,7 +32,7 @@ public class BookController {
                 .body(allBooks);
     }
 
-    @DeleteMapping("book")
+    @DeleteMapping
     public ResponseEntity<Book> deleteAuthor(@PathVariable Long idBook){
         bookService.deleteBook(idBook);
         return ResponseEntity

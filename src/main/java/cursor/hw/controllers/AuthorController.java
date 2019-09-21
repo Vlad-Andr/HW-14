@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("library")
+@RequestMapping("author")
 public class AuthorController {
     private final AuthorService authorService;
 
@@ -17,7 +17,7 @@ public class AuthorController {
         this.authorService = authorService;
     }
 
-    @PostMapping("author")
+    @PostMapping
     public ResponseEntity<Author> addAuthor(@RequestBody Author author) {
         authorService.addNewAuthor(author);
         return ResponseEntity
@@ -25,7 +25,7 @@ public class AuthorController {
                 .build();
     }
 
-    @GetMapping("author")
+    @GetMapping
     public ResponseEntity<List<Author>> findAllAuthors() {
         List<Author> allAuthors = authorService.getAllAuthors();
         return ResponseEntity
@@ -33,7 +33,7 @@ public class AuthorController {
                 .body(allAuthors);
     }
 
-    @DeleteMapping("author")
+    @DeleteMapping
     public ResponseEntity<Author> deleteAuthor(@PathVariable Long idAuthor){
         authorService.removeAuthor(idAuthor);
         return ResponseEntity
