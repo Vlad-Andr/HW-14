@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+
+    <changeSet id="4" author="vvv">
+        <insert tableName="authors">
+            <column name="first_name">Carl</column>
+            <column name="last_name">Hovak</column>
+        </insert>
+        <insert tableName="authors">
+            <column name="first_name">Kris</column>
+            <column name="last_name">O`connor</column>
+        </insert>
+        <insert tableName="authors">
+            <column name="first_name">Jack</column>
+            <column name="last_name">Daniels</column>
+        </insert>
+        <insert tableName="authors">
+            <column name="first_name">Keet</column>
+            <column name="last_name">Chup</column>
+        </insert>
+        <insert tableName="authors">
+            <column name="first_name">Hloe</column>
+            <column name="last_name">Washington</column>
+        </insert>
+        <insert tableName="authors">
+            <column name="first_name">Even</column>
+            <column name="last_name">Bruks</column>
+        </insert>
+        <insert tableName="authors">
+            <column name="first_name">Ryan</column>
+            <column name="last_name">Vilson</column>
+        </insert>
+        <insert tableName="authors">
+            <column name="first_name">Bat</column>
+            <column name="last_name">Man</column>
+        </insert>
+        <insert tableName="authors">
+            <column name="first_name">Bruce</column>
+            <column name="last_name">Lee</column>
+        </insert>
+        <insert tableName="authors">
+            <column name="first_name">Chupa</column>
+            <column name="last_name">Chups</column>
+        </insert>
+    </changeSet>
+</databaseChangeLog>
